@@ -16,7 +16,10 @@ import CutomImageList from "./CutomImageList";
 const RightBar = () => {
   return (
     <Box
-      sx={{ marginLeft: "0px", display: { xs: "none", sm: "block" } }}
+      sx={{
+        marginLeft: "0px",
+        display: { xs: "none", sm: "none", md: "none", lg: "block" },
+      }}
       flex={2}
     >
       <Box
