@@ -44,7 +44,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <AppBar sx={{ boxShadow: "none", position: "sticky" }}>
+    <AppBar sx={{ boxShadow: "none" }} position="sticky">
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
         <Typography
           variant="h6"
